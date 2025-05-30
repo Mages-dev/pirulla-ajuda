@@ -1,7 +1,5 @@
-import React, { useEffect } from "react"
+import React from "react"
 import useIsMobile from "../_Common/IsMobile"
-import Logo from "../_Common/Logo"
-import Titulo from "../_Common/Titulo"
 import Texto from "../_Common/Texto"
 import {
 	QR,

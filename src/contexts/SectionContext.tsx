@@ -1,10 +1,5 @@
 import React, { ReactNode, createContext, useContext } from 'react';
 import Header from '../components/Header'
-import YoutubeFeed from '../components/YoutubeFeed'
-import Twitch from '@/components/Twitch'
-import Parcerias from '@/components/Parcerias'
-import Apoio from '@/components/Apoio'
-import Contato from '@/components/Contato'
 
 interface SectionComponentProps {
   id: string;
@@ -15,12 +10,7 @@ type SectionComponentsType = {
 }
 
 const sectionComponents: SectionComponentsType = {
-  home: Header/*,
-  'latest-releases': YoutubeFeed,
-  lives: Twitch,
-  partnership: Parcerias,
-  support: Apoio,
-  contact: Contato,*/
+  home: Header,
 }
 
 const defaultValues = {
