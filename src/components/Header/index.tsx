@@ -30,14 +30,14 @@ const Header: React.FC<HeaderProps> = ({id}) => {
 				</ContentHeader>
 				<ContainerLogo>
 					<QR src="/qr.png" alt="QR Code" />
-					<Detalhes>00000000-0000-0000-0000-000000000000<br /><br />BENEFICIÁRIO</Detalhes>
+					<Detalhes>pirula1408@gmail.com<br /><br />Marcos Siqueira</Detalhes>
 				</ContainerLogo>
 				</>
 				) : (
 				<>
 				<ContainerLogo>
 					<QR src="/qr.png" alt="QR Code" />
-					<Detalhes>00000000-0000-0000-0000-000000000000<br /><br />BENEFICIÁRIO</Detalhes>
+					<Detalhes>pirula1408@gmail.com<br /><br />Marcos Siqueira</Detalhes>
 				</ContainerLogo>
 				<ContentHeader data-aos="fade-up">
 				<Texto>[O texto de divulgação ficará aqui].<br /><br />Muito obrigado!</Texto>
