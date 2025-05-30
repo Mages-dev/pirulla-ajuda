@@ -90,6 +90,7 @@ export const Detalhes = styled.h3`
 	text-align: center;
 	margin: 0;
 	margin-top: 10px;
+	margin-bottom: 80px;
 	line-height: 1.3; /* Adjust based on design requirements */
 	letter-spacing: 0.1vw;
 	overflow-wrap: break-word;
